@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', 'Poppins', sans-serif;
+}
+.innerContainer {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.headerSection {
+    background-color: #F3F3F3;
+}
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    align-items: center;
+}
+#logoText {
+    font-family: 'Inter', 'Poppins', sans-serif;
+    font-size: 22px;
+}
+.navSide {
+    width: 124px;
+    display: flex;
+    justify-content: space-between;
+}
+.navSide > .cart  {
+    /* padding-right: 5px; */
+    font-size: 18px;
+}
+.navSide > img  {
+    padding-right: 10px;
+    position: relative;
+    left: 0px;
+    bottom: 4px;
+}
+.navSide > button  {
+    font-size: 18px;
+    background-color: unset;
+    border: none;
+    cursor: pointer;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 150px 50px;
+    flex-wrap: wrap;
+}
+.heroIntro {
+    width: 320px;
+}
+.heroIntro > h1 {
+    font-size: 28px;
+    line-height: 70px;
+}
+.heroIntro > p {
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 10px;
+}
+.heroIntro > button {
+    font-size: 16px;
+    background-color: unset;
+    border: 1px solid black;
+    padding: 10px 45px;
+    cursor: pointer;
+}
+.heroIntro > img {
+    display: block;
+    position:relative;
+    top: 90px;
+    left: 80px;
+}
+.heroImage {
+    padding-top: 50px;
+    text-align: center;
+    line-height: 53px;
+}
+.arrow {
+    position: relative;
+    top: 6px;
+}
+.carousel {
+    font-size: 16px;
+    font-weight: 500;
+}
+.main {
+    padding-bottom: 56px;
+    /* background-color:blanchedalmond; */
+}
+.categoryList {
+    display: flex;
+    justify-content: center;
+    padding: 64px 0;
+}
+.categoryList > li {
+    font-size: 16px;
+    list-style: none;
+    padding-right: 21px;
+}
+.ProductWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 72px;
+    /* background-color: blue; */
+    /* width: 1180; */ 
+}
+.belt, .perfume, .gloves, .jacket, .trousers, .footwear, .socks, .spectacles, .hat {
+    background-color: #F3F3F3;
+    width: 289px;
+    height: 448px;
+    text-align: center;
+    /* padding: 0 10px; */
+}
+.vector{
+    position: relative;
+    top: 10px;
+    left: 120px;
+}
+.productImg {
+    padding-bottom: 50px;
+}
+.productName {
+    font-size: 22px;
+}
+.pricingTag {
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.pricing {
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 39px;
+    padding-bottom: 20px;
+}
+
+.productButton {
+    font-size: 16px;
+    background-color: unset;
+    border: 1px solid black;
+    padding: 10px 52px;
+    cursor: pointer;
+}
+
+.productImgJacket {
+    padding-bottom: 35px;
+}
+.productImgTrousers {
+    padding-bottom: 60px;
+}
+.productImgFootwear {
+    padding-top: 50px;
+    padding-bottom: 93px;
+}
+.productImgSocks {
+    padding-top: 30px;
+    padding-bottom: 85px;
+}
+.productImgSpec {
+    padding-bottom: 30px;
+}
+.productImgHat {
+    padding-top: 20px;
+    padding-bottom: 53px;
+}
+/* .containerrr {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.onnee {
+    background-color: blue;
+}
+.twwoo {
+    background-color: red;
+}
+a {
+    background-color: yellow;
+}
+.flex {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color:#000;
+}
+
+.flex > li + li {
+    margin-left: 21px;
+} */
